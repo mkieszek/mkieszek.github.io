@@ -19,20 +19,11 @@ logo: /assets/images/logo.png
 
 # Ustawienia budowania
 markdown: kramdown
-remote_theme: tareqdandachi/jekyll-shell-theme
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-remote-theme
-
-# Shell theme settings
-shell:
-  # Shell command before prompt
-  command: "openit.pro"
-  # Shell prompt symbol
-  symbol: "$"
-  style: light
 
 # Wyłączenie plików z budowania
 exclude:
