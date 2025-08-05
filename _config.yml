@@ -24,21 +24,11 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-theme-hacker
 
 # Ustawienia motywu
-title-heading: false  # wyłącza domyślny nagłówek motywu
-show-downloads: false # wyłącza przyciski pobierania
-google_analytics: false # wyłącza GA
-
-# Ustawienia Sass
-sass:
-  style: compressed
-  sass_dir: _sass
-  load_paths:
-    - _sass
-    - node_modules
-    - /usr/local/bundle/gems/jekyll-theme-hacker-0.2.0/_sass
+title-heading: false
+show-downloads: false
+google_analytics: false
   sass_dir: _sass
   load_paths:
     - _sass
