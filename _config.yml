@@ -5,8 +5,9 @@ description: >-
   Profesjonalne usługi IT dla firm, instytucji i szkół. 
   Kompleksowa obsługa informatyczna, bezpieczeństwo danych 
   i wsparcie techniczne.
-baseurl: "" # ścieżka podkatalogu, jeśli strona nie jest w głównym katalogu
-url: "https://openit.pro" # główny URL strony
+baseurl: ""
+url: "https://mkieszek.github.io" # URL dla GitHub Pages
+source: "."
 
 # Ustawienia SEO
 lang: pl-PL

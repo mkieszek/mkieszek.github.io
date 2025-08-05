@@ -1,16 +1,23 @@
-# Site settings
-url: openit.pro
-baseurl: ""
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
-# Excluded files
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+# Ruby
+.bundle/
+vendor/
+Gemfile.lock
+
+# System
+.DS_Store
+*.swp
+*~
+
+# IDE
+.idea/
+.vscode/
+
+# Temp files
+*.log
+tmp/
