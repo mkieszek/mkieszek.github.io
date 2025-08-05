@@ -1,23 +1,15 @@
-# Nasze realizacje
+---
+layout: case-studies
+title: Nasze realizacje
+---
 
-## Case studies
+# Case Studies
 
-Poznaj przykłady naszych wdrożeń i projektów:
+Poznaj przykłady naszych najciekawszych wdrożeń i projektów. Każde case study szczegółowo opisuje proces realizacji, wykorzystane technologie oraz osiągnięte rezultaty.
 
-### Sektor biznesowy
-- Wdrożenie infrastruktury chmurowej dla firmy produkcyjnej
-- Modernizacja sieci dla biurowca
-- Implementacja systemu backup dla kancelarii prawnej
+## Ostatnie realizacje
 
-### Sektor publiczny
-- Cyfryzacja urzędu gminy
-- Wdrożenie e-usług w instytucji kultury
-- System obiegu dokumentów dla jednostki administracyjnej
-
-### Edukacja
-- Modernizacja pracowni komputerowych w zespole szkół
-- Wdrożenie systemu do nauki zdalnej
-- Instalacja monitoringu i sieci WiFi w szkole
+Poniżej znajdziesz szczegółowe opisy wybranych projektów, które zrealizowaliśmy dla naszych klientów. Każde wdrożenie to unikalne rozwiązanie dopasowane do indywidualnych potrzeb.
 
 ## Szczegółowe realizacje
 
