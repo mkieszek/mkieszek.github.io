@@ -24,6 +24,25 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-theme-hacker
+
+# Ustawienia motywu
+title-heading: false  # wyłącza domyślny nagłówek motywu
+show-downloads: false # wyłącza przyciski pobierania
+google_analytics: false # wyłącza GA
+
+# Ustawienia Sass
+sass:
+  style: compressed
+  sass_dir: _sass
+  load_paths:
+    - _sass
+    - node_modules
+    - /usr/local/bundle/gems/jekyll-theme-hacker-0.2.0/_sass
+  sass_dir: _sass
+  load_paths:
+    - _sass
+    - /usr/local/bundle/gems/jekyll-theme-hacker-0.2.0/_sass
 
 # Wyłączenie plików z budowania
 exclude:
@@ -39,6 +58,7 @@ collections:
   case-studies:
     output: true
     permalink: /case-studies/:path/
+    sort_by: title
 
 # Domyślne wartości dla stron
 defaults:
@@ -49,5 +69,9 @@ defaults:
   - scope:
       path: ""
       type: "case-studies"
+    values:
+      layout: case-study
+  - scope:
+      path: "_case-studies"
     values:
       layout: case-study

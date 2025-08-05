@@ -1,18 +1,29 @@
 ---
 layout: case-studies
-title: Nasze realizacje
+title: Case Studies
 ---
 
-# Case Studies
+# Nasze realizacje
 
 Poznaj przykłady naszych najciekawszych wdrożeń i projektów. Każde case study szczegółowo opisuje proces realizacji, wykorzystane technologie oraz osiągnięte rezultaty.
 
-## Ostatnie realizacje
+## Ostatnie wdrożenia
 
-Poniżej znajdziesz szczegółowe opisy wybranych projektów, które zrealizowaliśmy dla naszych klientów. Każde wdrożenie to unikalne rozwiązanie dopasowane do indywidualnych potrzeb.
-
-## Szczegółowe realizacje
-
-[Zobacz szczegółowe opisy wybranych projektów w dedykowanych case studies](/case-studies)
+{% for case in site.case-studies %}
+{% if case.url contains 'index' %}{% continue %}{% endif %}
+<div class="case-study-card">
+  <h2><a href="{{ case.url | relative_url }}">{{ case.title }}</a></h2>
+  {% if case.client %}
+    <p class="client">Klient: {{ case.client }}</p>
+  {% endif %}
+  {% if case.tags %}
+    <div class="tags">
+      {% for tag in case.tags %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>
+{% endfor %}
 
 [Skontaktuj się z nami](/kontakt) aby omówić Twój projekt.
