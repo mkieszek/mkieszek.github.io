@@ -1,0 +1,52 @@
+# Podstawowa konfiguracja strony
+title: OpenIT.pro - Profesjonalne usługi IT
+email: kontakt@openit.pro
+description: >- 
+  Profesjonalne usługi IT dla firm, instytucji i szkół. 
+  Kompleksowa obsługa informatyczna, bezpieczeństwo danych 
+  i wsparcie techniczne.
+baseurl: "" # ścieżka podkatalogu, jeśli strona nie jest w głównym katalogu
+url: "https://openit.pro" # główny URL strony
+
+# Ustawienia SEO
+lang: pl-PL
+author: OpenIT.pro
+twitter:
+  username: openitpro
+  card: summary_large_image
+logo: /assets/images/logo.png
+
+# Ustawienia budowania
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Wyłączenie plików z budowania
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - README.md
+
+# Kolekcje
+collections:
+  case-studies:
+    output: true
+    permalink: /case-studies/:path/
+
+# Domyślne wartości dla stron
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: "case-studies"
+    values:
+      layout: case-study

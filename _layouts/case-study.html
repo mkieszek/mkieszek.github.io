@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<article class="case-study">
+    <header>
+        <h1>{{ page.title }}</h1>
+        {% if page.client %}
+        <p class="client">Klient: {{ page.client }}</p>
+        {% endif %}
+    </header>
+
+    {{ content }}
+
+    <footer>
+        {% if page.tags %}
+        <p class="tags">
+            Tagi:
+            {% for tag in page.tags %}
+            <span class="tag">{{ tag }}</span>
+            {% endfor %}
+        </p>
+        {% endif %}
+    </footer>
+</article>
