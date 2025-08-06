@@ -19,7 +19,7 @@ logo: /assets/images/logo.png
 
 # Ustawienia budowania
 markdown: kramdown
-theme: jekyll-theme-hacker
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
