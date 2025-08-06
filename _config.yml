@@ -30,11 +30,6 @@ title-heading: false
 show-downloads: false
 google_analytics: false
 
-# Ustawienia Sass
-sass:
-  sass_dir: _sass
-  style: compressed
-
 # Wyłączenie plików z budowania
 exclude:
   - Gemfile
