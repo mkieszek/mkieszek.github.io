@@ -1,14 +1,12 @@
 source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
-gem "jekyll-theme-minima"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
-  gem "jekyll-theme-hacker"
-  gem "jekyll-theme-minima"
+  gem "jekyll-theme-minimal"
 end
 
 # Windows specific gems
