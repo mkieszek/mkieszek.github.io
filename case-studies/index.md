@@ -7,23 +7,4 @@ title: Case Studies
 
 Poznaj przykłady naszych najciekawszych wdrożeń i projektów. Każde case study szczegółowo opisuje proces realizacji, wykorzystane technologie oraz osiągnięte rezultaty.
 
-## Ostatnie wdrożenia
-
-{% for case in site.case-studies %}
-{% if case.url contains 'index' %}{% continue %}{% endif %}
-<div class="case-study-card">
-  <h2><a href="{{ case.url | relative_url }}">{{ case.title }}</a></h2>
-  {% if case.client %}
-    <p class="client">Klient: {{ case.client }}</p>
-  {% endif %}
-  {% if case.tags %}
-    <div class="tags">
-      {% for tag in case.tags %}
-        <span class="tag">{{ tag }}</span>
-      {% endfor %}
-    </div>
-  {% endif %}
-</div>
-{% endfor %}
-
 [Skontaktuj się z nami](/kontakt) aby omówić Twój projekt.
