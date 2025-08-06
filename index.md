@@ -1,16 +1,14 @@
-# OpenIT.pro - Profesjonalne usługi IT
-
-## Witamy w OpenIT.pro
+# Witamy w OpenIT.pro
 
 Jesteśmy zespołem specjalistów IT świadczącym kompleksowe usługi informatyczne dla firm, instytucji i szkół. Nasze rozwiązania są szyte na miarę potrzeb każdego klienta.
 
-## Nasza oferta
+# Nasza oferta
 
 - 🏢 **Obsługa firm** - kompleksowe wsparcie IT dla Twojego biznesu
 - 🏛️ **Wsparcie instytucji** - niezawodne rozwiązania dla instytucji publicznych
 - 🎓 **Usługi dla szkół** - nowoczesne technologie w edukacji
 
-## Dlaczego OpenIT.pro?
+# Dlaczego OpenIT.pro?
 
 - ✔️ Wieloletnie doświadczenie
 - 🔒 Bezpieczeństwo danych
