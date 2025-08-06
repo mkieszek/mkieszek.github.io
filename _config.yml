@@ -57,7 +57,3 @@ defaults:
       type: "case-studies"
     values:
       layout: case-study
-  - scope:
-      path: "_case-studies"
-    values:
-      layout: case-study
