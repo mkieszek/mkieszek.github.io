@@ -1,5 +1,5 @@
 ---
-layout: case-studies
+layout: default
 title: Case Studies
 ---
 
