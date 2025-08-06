@@ -44,7 +44,6 @@ collections:
   case-studies:
     output: true
     permalink: /case-studies/:path/
-    sort_by: title
 
 # Domyślne wartości dla stron
 defaults:
